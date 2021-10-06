@@ -6,6 +6,7 @@ import YoutubeIcon from '@material-ui/icons/YouTube';
 import { LinkedIn } from '@material-ui/icons';
 import Particle from '../Components/Particle';
 import All from '../Components/Technologies/All';
+import Floating from '../Components/floatingpc/Floating';
 
 function HomePage() {
     return (
@@ -16,7 +17,7 @@ function HomePage() {
                 <Particle />
             </div>
             <div className="typography">
-                <h1>Hi, I'm <span>Mohamed cherif</span></h1>
+                <h1 style={{paddingTop:"100px"}} >Hi, I'm <span>Mohamed cherif</span></h1>
                 <p>
                     Welcome to my portfolio here you're going to get to know the fullstack developer 
                     you're just about to hire 😉
@@ -34,8 +35,9 @@ function HomePage() {
                     </a>
                    
                 </div>
-                <p>Some of the Technologies that i love  </p>
-                    <All/> 
+                <p>Here's a little tease of the computer i'm going to be working on your project  </p>
+                <p>Go ahead open it you have my permission</p>
+                <Floating/> 
 
             </div>
            
@@ -58,6 +60,7 @@ const HomePageStyled = styled.header`
         transform: translate(-50%, -50%);
         text-align: center;
         width: 80%;
+        height:100vh;
 
         .icons{
             display: flex;

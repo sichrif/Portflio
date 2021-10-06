@@ -4,6 +4,7 @@ import Title from '../Components/Title';
 import portfolios from '../data/portfolios';
 import Menu from '../Components/Menu';
 import Button from '../Components/Button';
+import All from '../Components/Technologies/All';
 
 const allButtons = ['All', ...new Set(portfolios.map(item => item.category))]
 
@@ -23,10 +24,12 @@ function PortfoliosPage() {
     }
     return (
         <MainLayout>
-            <Title title={'Portfolios'} span={'portfolios'} />
-            <InnerLayout>
 
-                <Button filter={filter} button={button} />
+                
+                <InnerLayout>
+                    <p style={{textAlign:"center"}} >Some of the Technologies that i love</p>
+                <All/>
+                 
                 <Menu menuItem={menuItem} />
             </InnerLayout>
         </MainLayout>
