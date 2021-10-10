@@ -24,7 +24,7 @@ function ImageSection() {
   return (
     <ImageSectionStyled>
       <div className="left-content">
-        <img src={avatar} alt="" />
+        <img  src={avatar} alt="" />
       </div>
       <div className="right-content">
         <h4>
@@ -95,7 +95,7 @@ const ImageSectionStyled = styled.div`
   .left-content {
     width: 100%;
     img {
-      width: 95%;
+      width: 77%;
       object-fit: cover;
     }
   }

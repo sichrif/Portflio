@@ -10,66 +10,58 @@ const portfolios = [
         category: 'VUEJS',
         image: css1,
         link1: 'https://www.abserve-tunisie.tn/',
-        link2: 'https://www.abserve-tunisie.tn/',
+        link2: 'https://youtu.be/VK3LESAO0xA',
         title: 'Ab Serve Tunisie        ',
         text: 'Created with Laravel and VueJs.'
-    },  {
+    },   {
         id: 1,
         category: 'VUEJS',
         image: css1,
         link1: 'https://www.abserve-tunisie.tn/',
-        link2: 'https://www.abserve-tunisie.tn/',
+        link2: 'https://youtu.be/VK3LESAO0xA',
         title: 'Ab Serve Tunisie        ',
         text: 'Created with Laravel and VueJs.'
-    },  {
+    },   {
         id: 1,
         category: 'VUEJS',
         image: css1,
         link1: 'https://www.abserve-tunisie.tn/',
-        link2: 'https://www.abserve-tunisie.tn/',
+        link2: 'https://youtu.be/VK3LESAO0xA',
         title: 'Ab Serve Tunisie        ',
         text: 'Created with Laravel and VueJs.'
-    },  {
+    },   {
         id: 1,
         category: 'VUEJS',
         image: css1,
         link1: 'https://www.abserve-tunisie.tn/',
-        link2: 'https://www.abserve-tunisie.tn/',
+        link2: 'https://youtu.be/VK3LESAO0xA',
         title: 'Ab Serve Tunisie        ',
         text: 'Created with Laravel and VueJs.'
-    },  {
+    },   {
         id: 1,
         category: 'VUEJS',
         image: css1,
         link1: 'https://www.abserve-tunisie.tn/',
-        link2: 'https://www.abserve-tunisie.tn/',
+        link2: 'https://youtu.be/VK3LESAO0xA',
         title: 'Ab Serve Tunisie        ',
         text: 'Created with Laravel and VueJs.'
-    },  {
+    },   {
         id: 1,
         category: 'VUEJS',
         image: css1,
         link1: 'https://www.abserve-tunisie.tn/',
-        link2: 'https://www.abserve-tunisie.tn/',
+        link2: 'https://youtu.be/VK3LESAO0xA',
         title: 'Ab Serve Tunisie        ',
         text: 'Created with Laravel and VueJs.'
-    },  {
+    },   {
         id: 1,
         category: 'VUEJS',
         image: css1,
         link1: 'https://www.abserve-tunisie.tn/',
-        link2: 'https://www.abserve-tunisie.tn/',
+        link2: 'https://youtu.be/VK3LESAO0xA',
         title: 'Ab Serve Tunisie        ',
         text: 'Created with Laravel and VueJs.'
-    },  {
-        id: 1,
-        category: 'VUEJS',
-        image: css1,
-        link1: 'https://www.abserve-tunisie.tn/',
-        link2: 'https://www.abserve-tunisie.tn/',
-        title: 'Ab Serve Tunisie        ',
-        text: 'Created with Laravel and VueJs.'
-    },
+    }, 
 ]
 
 export default portfolios;
