@@ -36,7 +36,7 @@ function HomePage() {
                    
                 </div>
                 <p>Here's a little tease of the computer i'm going to be working on your project  </p>
-                <p>Go ahead open it you have my permission</p>
+                <p>Go ahead close it you have my permission</p>
                 <Floating/> 
 
             </div>

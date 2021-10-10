@@ -39,14 +39,14 @@ function ContactPage() {
                             <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
                         </div>
                         <div className="form-field f-button">
-                            <PrimaryButton title={'Send Email'} />
+                            {/* <PrimaryButton disabled title={'Send Email'} /> */}
                         </div>
                     </form>
                 </div>
                 <div className="right-content">
-                    <ContactItem title={'Phone'} icon={phone} cont1={'+66-789675637'} cont2={'07663520283'} />
-                    <ContactItem title={'Email'} icon={email} cont1={'loremipsum@gmail.com'} cont2={'info.lorem.ipsum@gmail.com'} />
-                    <ContactItem title={'Address'} icon={location} cont1={'27 Aldrich Road, London, England'} cont2={'United Kingdom'} />
+                    <ContactItem title={'Phone'} icon={phone} cont1={'+216-25566952'} cont2={'+216-50557956'} />
+                    <ContactItem title={'Email'} icon={email} cont1={'mchrif000@yandex.com'} cont2={'mchrif000@gmail.com'} />
+                    <ContactItem title={'Address'} icon={location} cont1={'Tunisia, Bizerte'} cont2={'Tunis'} />
                     
                 </div>
             </InnerLayout>

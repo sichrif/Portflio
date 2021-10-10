@@ -53,7 +53,7 @@ function Model({ open, hinge, ...props }) {
 
 export default function Floating() {
   // This flag controls open state, alternates between true & false
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(true)
   // We turn this into a spring animation that interpolates between 0 and 1
   const props = useSpring({ open: Number(open) })
   return (
