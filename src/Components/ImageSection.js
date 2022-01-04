@@ -10,7 +10,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import resume from "../img/resume.jpg";
 import PrimaryButton from "./PrimaryButton";
-import avatar from '../img/avatar.png';
+import avatar from '../img/profile-pic.png';
 
 function ImageSection() {
   const [reveal, setReveal] = useState(false);
